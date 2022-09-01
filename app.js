@@ -6,7 +6,7 @@ let Message;
 
 if (usersName==='Isaiah'){
     Message = 'Hey Dad!';
-} else
+} else{
     Message = 'Hey, Welcome to Kiki and Santanas Page!';
 }
 console.log(Message)
