@@ -19,8 +19,7 @@ html, body{
 }
 
 
-style{cursor: url(KikiKursor.png), active;
-}
+
 
 
  .glow-on-hover {
@@ -70,6 +69,7 @@ style{cursor: url(KikiKursor.png), active;
 
 .glow-on-hover:hover:before {
     opacity: 1;
+    cursor: url(KikiKursor.png), active;
 }
 
 .glow-on-hover:after {
@@ -78,7 +78,7 @@ style{cursor: url(KikiKursor.png), active;
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #111;
+    background: #000000;
     left: 0;
     top: 0;
     border-radius: 10px;
@@ -125,6 +125,7 @@ style{cursor: url(KikiKursor.png), active;
   animation: textclip 2s linear infinite;
   display: inline-block;
       font-size: 190px;
+      
 }
 
 @keyframes textclip {
@@ -133,15 +134,28 @@ style{cursor: url(KikiKursor.png), active;
   }
 }
 
-.Pic{display: inline-block;}
+.Pic{display: inline-block;
+    cursor: url(KikiKursor.png);
+}
  #Kiella{float:left;}
  #Sosa{float: right;}
+
+ .Pics{display: inline-block;
+    cursor: url(KikiKursor.png);
+}
+ #babies{float: center;
+        margin-left: 550px;  
+    }
+
 
 
 h1 {text-align: center; 
     cursor: url(KikiKursor.png);
 }
-p {text-align: center;}
+p {text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 div {text-align: center;
     cursor: url(KikiKursor.png), active;
 }
@@ -152,3 +166,4 @@ footer{position: fixed; bottom: 0;
 button{cursor: url(KikiKursor.png), default; 
     
 }
+
